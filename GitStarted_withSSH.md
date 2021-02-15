@@ -70,15 +70,15 @@ $
 
 ## D3. Share the public part of the key with github.  First copy the generated public key to the clipboard (system dependent):
 
-cat ~/.ssh/id_rsa.pub | clip                                        # windows
+cat ~/.ssh/id_rsa.pub | clip                         # windows
 
-cat ~/.ssh/id_rsa.pub | pbcopy                                      # mac
+cat ~/.ssh/id_rsa.pub | pbcopy                       # mac
 
 
 
-sudo apt-get install -y xclip                                       # install the xclip tool on linux
+sudo apt-get install -y xclip                        # install the xclip tool on linux
 
-cat ~/.ssh/id_rsa.pub | xclip -selection c                          # linux
+cat ~/.ssh/id_rsa.pub | xclip -selection c           # linux
 
 
 Now add the public key to the allowed keys for your user (under settings in Github), just paste what you just put in the clipboard as a new public 
